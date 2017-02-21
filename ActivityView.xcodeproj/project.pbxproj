@@ -15,6 +15,7 @@
 		7AFF6B711E5A8588005E8980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFF6B6F1E5A8588005E8980 /* LaunchScreen.storyboard */; };
 		7AFF6B7C1E5A8588005E8980 /* ActivityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF6B7B1E5A8588005E8980 /* ActivityViewTests.m */; };
 		7AFF6B871E5A8588005E8980 /* ActivityViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF6B861E5A8588005E8980 /* ActivityViewUITests.m */; };
+		7AFF6B971E5A879B005E8980 /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF6B961E5A879B005E8980 /* ActivityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7AFF6B821E5A8588005E8980 /* ActivityViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFF6B861E5A8588005E8980 /* ActivityViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewUITests.m; sourceTree = "<group>"; };
 		7AFF6B881E5A8588005E8980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFF6B951E5A879B005E8980 /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityView.h; sourceTree = "<group>"; };
+		7AFF6B961E5A879B005E8980 /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7AFF6B601E5A8587005E8980 /* ActivityView */ = {
 			isa = PBXGroup;
 			children = (
+				7AFF6B941E5A85B1005E8980 /* ActivitiesView */,
 				7AFF6B641E5A8588005E8980 /* AppDelegate.h */,
 				7AFF6B651E5A8588005E8980 /* AppDelegate.m */,
 				7AFF6B671E5A8588005E8980 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				7AFF6B881E5A8588005E8980 /* Info.plist */,
 			);
 			path = ActivityViewUITests;
+			sourceTree = "<group>";
+		};
+		7AFF6B941E5A85B1005E8980 /* ActivitiesView */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF6B951E5A879B005E8980 /* ActivityView.h */,
+				7AFF6B961E5A879B005E8980 /* ActivityView.m */,
+			);
+			path = ActivitiesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AFF6B691E5A8588005E8980 /* ViewController.m in Sources */,
+				7AFF6B971E5A879B005E8980 /* ActivityView.m in Sources */,
 				7AFF6B661E5A8588005E8980 /* AppDelegate.m in Sources */,
 				7AFF6B631E5A8588005E8980 /* main.m in Sources */,
 			);
